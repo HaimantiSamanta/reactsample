@@ -1,0 +1,87 @@
+.tableMainContainer{
+    display: flex;
+    flex-direction: column;
+    overflow:-moz-hidden-unscrollable;
+}
+.butoonWrapper{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.textinput{
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.tableContainer{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraptable ::-webkit-scrollbar{
+    display: none;
+}
+.table{
+    width: 150px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.table1{
+    width: 150px;
+    height: 40px;
+    border-bottom: 1px solid #9ac1f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.table1 p{ 
+    text-align: center; 
+    font-size: 10px;
+    font-weight: 400px;
+}
+.table p{
+    text-align: center;
+}
+.table1 img {
+    text-align: center;
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+}
+.nextbtn::hover{
+    background-color:yellow;
+}
+.SearchContainer{
+    width: 75%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.paginationbtn{
+    width: auto;
+    height: 30px;
+    padding: 7px;
+    background-color: #9ac1f5;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    margin-left: 10px;
+}
